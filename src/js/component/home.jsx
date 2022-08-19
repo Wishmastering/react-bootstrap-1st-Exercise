@@ -9,7 +9,9 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar/>
 			<Jumbotron/>
-			<Card/>
+			<div className="row">
+			<Card className = "col-3" /><Card className = "col-3" /><Card className = "col-3" /><Card className = "col-3" />
+			</div>
 		</div>
 	);
 };
